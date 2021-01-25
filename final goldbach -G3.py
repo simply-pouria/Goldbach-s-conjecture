@@ -18,8 +18,10 @@ while True:
                 a=1
                 break
         if a==1 and b==1 :
-            print('we can show the number ',tn,' as plus of two prime numbers')
+            print('we can show the number ',tn,' as sum of two prime numbers')
             break
+        else:
+            print('we CAN NOT show the number ',tn,' as sum of two prime numbers')
     tn=tn+2
             
         
