@@ -10,11 +10,11 @@ while True:
         m=x-i
         n=x+1
         for i in range(2,n):
-            if n % i == 0 :
+            if n % i != 0 :
                 a=1
                 break
         for i in range(2,m):
-            if m % i == 0 :
+            if m % i != 0 :
                 a=1
                 break
         if a==1 and b==1 :
